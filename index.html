@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>PWA Demo</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="styles.css" />
+    <script type="application/javascript">
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/sw.js');
+      }
+    </script>
+</head>
+
+<body>
+<div>Demo page</div>
+<img src="image.jpg" title="" alt="" width="500" />
+</body>
+
+</html>

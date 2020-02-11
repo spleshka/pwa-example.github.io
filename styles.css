@@ -1,0 +1,11 @@
+body {
+    background: #ccc;
+    color: white;
+    padding: 50px;
+    text-align: center;
+    font-size: 30px;
+}
+
+div {
+    padding-bottom: 50px;
+}
